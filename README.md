@@ -1,4 +1,5 @@
 <h1 align="center">Nlw APP</h1>
+<image src="https://github.com/VictorBren0/nlw-app/assets/87786280/d0bd5219-27a0-4bc5-bdb6-3ab3cbc614a7"
 
 > O aplicativo Nlw é um projeto desenvolvido durante a Next Level Week, um evento da Rocketseat, onde o objetivo é criar um aplicativo de tickets para eventos.
 
