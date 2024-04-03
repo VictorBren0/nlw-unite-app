@@ -1,4 +1,4 @@
-import '../styles/global.css'
+import "../styles/global.css";
 
 import { Slot } from "expo-router";
 import { Loading } from "@/components/loading";
@@ -11,17 +11,15 @@ import {
 } from "@expo-google-fonts/roboto";
 
 export default function Layout() {
-
-   const [fontsLoaded] = useFonts({
+    const [fontsLoaded] = useFonts({
         Roboto_400Regular,
         Roboto_700Bold,
         Roboto_500Medium,
     });
 
     if (!fontsLoaded) {
-        return <Loading />
+        return <Loading />;
     }
 
-    return <Slot />
-
+    return <Slot />;
 }
